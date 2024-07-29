@@ -1126,7 +1126,7 @@ QPushButton:pressed{
 }</string>
       </property>
       <property name="text">
-       <string>Clear</string>
+       <string>Submit</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pg2_back_btn">

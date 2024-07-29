@@ -8,6 +8,7 @@ from subprocess import run
 
 # Local Imports
 from Utils import Number_generator, Evalutator
+from Store_Result import Data_Dir_Manager
 
 class GUI_Front:
     def __init__(self) -> None:
@@ -17,7 +18,7 @@ class GUI_Front:
         self.ui.setupUi(MainWindow)
         MainWindow.setWindowTitle("Primary Arithmetic Questions")
         
-        
+
         self.setter()
         self.addition_page()
         MainWindow.show()

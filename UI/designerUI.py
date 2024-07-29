@@ -606,7 +606,7 @@ class Ui_MainWindow(object):
 "+ 314"))
         self.pg2_q8_label.setText(_translate("MainWindow", "   760\n"
 "+ 314"))
-        self.pg2_clear_btn.setText(_translate("MainWindow", "Clear"))
+        self.pg2_clear_btn.setText(_translate("MainWindow", "Submit"))
         self.pg2_back_btn.setText(_translate("MainWindow", "Back"))
 
 
