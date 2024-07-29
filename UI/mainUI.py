@@ -26,11 +26,23 @@ class GUI_Front:
 
     def setter(self):
         self.ui.pg2_back_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page))
+        self.ui.pg2_clear_btn.clicked.connect(lambda: self.clear_tf())
 
         self.ui.pg1_addition_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_2))
         self.ui.pg1_addition_btn.clicked.connect(lambda: self.addition_page())
-        pass
 
+        self.ui.pg1_subtraction_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_2))
+        self.ui.pg1_subtraction_btn.clicked.connect(lambda: self.subtraction_page())
+
+        self.ui.pg1_multi_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_2))
+        self.ui.pg1_multi_btn.clicked.connect(lambda: self.multiplication_page())
+        
+        self.ui.pg1_division_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_2))
+        self.ui.pg1_division_btn.clicked.connect(lambda: self.division_page())
+
+
+
+        pass
         
     def pg2_input(self):
         ans_lst = [
@@ -46,13 +58,23 @@ class GUI_Front:
         ]
 
         return ans_lst
+    
+    def clear_tf(self):
+        self.ui.pg2_ans1_tf.setText("")
+        self.ui.pg2_ans2_tf.setText("")
+        self.ui.pg2_ans3_tf.setText("")
+        self.ui.pg2_ans4_tf.setText("")
+        self.ui.pg2_ans5_tf.setText("")
+        self.ui.pg2_ans6_tf.setText("")
+        self.ui.pg2_ans7_tf.setText("")
+        self.ui.pg2_ans8_tf.setText("")
+        self.ui.pg2_ans9_tf.setText("")
 
-    def addition_page(self):
-        
-        
-        ques_lst = Number_generator("+").generate_number()
+    def set_question(self, sign):
+        self.clear_tf()
+        ques_lst = Number_generator(sign).generate_number()
 
-        self.ui.pg2_head_label.setText("Addition Test")
+        
         self.ui.pg2_q1_label.setText(ques_lst[0])
         self.ui.pg2_q2_label.setText(ques_lst[1])
         self.ui.pg2_q3_label.setText(ques_lst[2])
@@ -64,6 +86,26 @@ class GUI_Front:
         self.ui.pg2_q9_label.setText(ques_lst[8])
 
         print(ques_lst)
+
+    def addition_page(self):
+        self.ui.pg2_head_label.setText("Addition Test")
+        self.set_question("+")
+
+
+    def subtraction_page(self):
+        self.ui.pg2_head_label.setText("Subtraction Test")
+        self.set_question("-")
+
+    def multiplication_page(self):
+        self.ui.pg2_head_label.setText("Multiplication Test")
+        self.set_question("x")
+        
+
+    def division_page(self):
+        self.ui.pg2_head_label.setText("Division Test")
+        self.set_question("÷")
+
+        
 
 
         

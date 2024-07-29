@@ -17,12 +17,20 @@ class Number_generator():
         retunr list
         """
 
+        if self.sign_str == "÷":
+            return self.generate_division()
+        
+
+
         question_list = []
+
 
         # Two digits
         for i in range(0,5):
-            up_num = random.randint(10, 99)
-            dw_num = random.randint(10, 99)
+            num1 = random.randint(10, 99)
+            num2 = random.randint(10, 99)
+            up_num = max(num1, num2)
+            dw_num = min(num1, num2)
 
             strr = f"   {up_num}\n{self.sign_str} {dw_num}"
             question_list.append(strr)
@@ -30,21 +38,48 @@ class Number_generator():
 
         # Three digits
         for i in range(0,3):
-            up_num = random.randint(100, 999)
-            dw_num = random.randint(100, 999)
+            num1 = random.randint(100, 999)
+            num2 = random.randint(100, 999)
+            up_num = max(num1, num2)
+            dw_num = min(num1, num2)
 
             strr = f"   {up_num}\n{self.sign_str} {dw_num}"
             question_list.append(strr)
         
 
         # Four digit
-        up_num = random.randint(1000, 9999)
-        dw_num = random.randint(1000, 9999)
+        num1 = random.randint(1000, 9999)
+        num2 = random.randint(1000, 9999)
+        up_num = max(num1, num2)
+        dw_num = min(num1, num2)
 
         strr = f"   {up_num}\n{self.sign_str} {dw_num}"
         question_list.append(strr)
 
 
         return question_list
+    
+
+
+    
+    def generate_division(self):
+        """
+        Generate small divisions:  76\n÷  2"
+        """
+
+        question_list = []
+
+        # Two digits
+        for i in range(0,9):
+            num1 = random.randint(1, 11)
+            num2 = random.randint(1, 999)
+            up_num = max(num1, num2)
+            dw_num = min(num1, num2)
+
+            strr = f"   {up_num}\n{self.sign_str}   {dw_num}"
+            question_list.append(strr)
+
+        return question_list
+
         
 
