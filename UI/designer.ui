@@ -301,7 +301,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="head_label">
+      <widget class="QLabel" name="pg2_head_label">
        <property name="geometry">
         <rect>
          <x>80</x>
@@ -344,7 +344,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_5">
+      <widget class="QLabel" name="pg2_q1_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -365,7 +365,7 @@ QPushButton:pressed{
 + 34</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="QLineEdit" name="pg2_ans1_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -382,7 +382,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_2">
+      <widget class="QLabel" name="pg2_corr1_label">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -399,7 +399,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>110</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -425,7 +425,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_8">
+      <widget class="QLabel" name="pg2_q6_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -446,7 +446,7 @@ QPushButton:pressed{
 + 314</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_4">
+      <widget class="QLineEdit" name="pg2_ans6_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -463,7 +463,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_3">
+      <widget class="QLabel" name="pg2_corr6_label">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -480,7 +480,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>1074</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -506,7 +506,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_15">
+      <widget class="QLabel" name="pg2_q9_label">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -527,7 +527,7 @@ QPushButton:pressed{
 + 34534</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_11">
+      <widget class="QLineEdit" name="pg2_ans9_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -544,7 +544,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_15">
+      <widget class="QLabel" name="pg2_corr9_label">
        <property name="geometry">
         <rect>
          <x>10</x>
@@ -561,11 +561,11 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>1074</string>
+        <string/>
        </property>
       </widget>
      </widget>
-     <widget class="QPushButton" name="pg1_addition_btn_2">
+     <widget class="QPushButton" name="pg2_result_btn">
       <property name="geometry">
        <rect>
         <x>1190</x>
@@ -627,7 +627,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_7">
+      <widget class="QLabel" name="pg2_q2_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -648,7 +648,7 @@ QPushButton:pressed{
 + 34</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_3">
+      <widget class="QLineEdit" name="pg2_ans2_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -665,7 +665,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_4">
+      <widget class="QLabel" name="pg2_corr2_label">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -682,7 +682,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>110</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -708,7 +708,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_12">
+      <widget class="QLabel" name="pg2_q3_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -729,7 +729,7 @@ QPushButton:pressed{
 + 34</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_8">
+      <widget class="QLineEdit" name="pg2_ans3_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -746,7 +746,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_7">
+      <widget class="QLabel" name="pg2_corr3_label">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -763,7 +763,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>110</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -789,7 +789,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_16">
+      <widget class="QLabel" name="pg2_q4_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -810,7 +810,7 @@ QPushButton:pressed{
 + 34</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_12">
+      <widget class="QLineEdit" name="pg2_ans4_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -827,7 +827,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_8">
+      <widget class="QLabel" name="pg2_corr4_label">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -844,7 +844,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>110</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -870,7 +870,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_17">
+      <widget class="QLabel" name="pg2_q5_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -891,7 +891,7 @@ QPushButton:pressed{
 + 34</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_13">
+      <widget class="QLineEdit" name="pg2_ans5_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -908,7 +908,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_9">
+      <widget class="QLabel" name="pg2_corr5_label">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -925,7 +925,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>110</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -951,7 +951,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_13">
+      <widget class="QLabel" name="pg2_q7_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -972,7 +972,7 @@ QPushButton:pressed{
 + 314</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_9">
+      <widget class="QLineEdit" name="pg2_ans7_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -989,7 +989,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_11">
+      <widget class="QLabel" name="pg2_corr7_label">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -1006,7 +1006,7 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>1074</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -1032,7 +1032,7 @@ QPushButton:pressed{
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="welcome_label_19">
+      <widget class="QLabel" name="pg2_q8_label">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -1053,7 +1053,7 @@ QPushButton:pressed{
 + 314</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_15">
+      <widget class="QLineEdit" name="pg2_ans8_tf">
        <property name="geometry">
         <rect>
          <x>30</x>
@@ -1070,7 +1070,7 @@ QPushButton:pressed{
         </font>
        </property>
       </widget>
-      <widget class="QLabel" name="head_label_14">
+      <widget class="QLabel" name="pg2_corr8_label">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -1087,11 +1087,11 @@ QPushButton:pressed{
         </font>
        </property>
        <property name="text">
-        <string>1074</string>
+        <string/>
        </property>
       </widget>
      </widget>
-     <widget class="QPushButton" name="pg1_addition_btn_3">
+     <widget class="QPushButton" name="pg2_clear_btn">
       <property name="geometry">
        <rect>
         <x>1190</x>
@@ -1129,7 +1129,7 @@ QPushButton:pressed{
        <string>Clear</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pg1_addition_btn_4">
+     <widget class="QPushButton" name="pg2_back_btn">
       <property name="geometry">
        <rect>
         <x>1190</x>
