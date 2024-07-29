@@ -72,7 +72,10 @@ class GUI_Front:
 
     def set_question(self, sign):
         self.clear_tf()
-        ques_lst = Number_generator(sign).generate_number()
+        generator = Number_generator(sign).generate_number()
+        ques_lst = generator["question_list"]
+        ans_lst = generator["answer_list"]
+        print(ans_lst)
 
         
         self.ui.pg2_q1_label.setText(ques_lst[0])
@@ -85,7 +88,7 @@ class GUI_Front:
         self.ui.pg2_q8_label.setText(ques_lst[7])
         self.ui.pg2_q9_label.setText(ques_lst[8])
 
-        print(ques_lst)
+
 
     def addition_page(self):
         self.ui.pg2_head_label.setText("Addition Test")

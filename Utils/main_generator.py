@@ -23,6 +23,7 @@ class Number_generator():
 
 
         question_list = []
+        answer_list = []
 
 
         # Two digits
@@ -31,6 +32,7 @@ class Number_generator():
             num2 = random.randint(10, 99)
             up_num = max(num1, num2)
             dw_num = min(num1, num2)
+            answer_list.append(self.evaluate(up_num, dw_num, self.sign_str))
 
             strr = f"   {up_num}\n{self.sign_str} {dw_num}"
             question_list.append(strr)
@@ -42,6 +44,7 @@ class Number_generator():
             num2 = random.randint(100, 999)
             up_num = max(num1, num2)
             dw_num = min(num1, num2)
+            answer_list.append(self.evaluate(up_num, dw_num, self.sign_str))
 
             strr = f"   {up_num}\n{self.sign_str} {dw_num}"
             question_list.append(strr)
@@ -52,12 +55,12 @@ class Number_generator():
         num2 = random.randint(1000, 9999)
         up_num = max(num1, num2)
         dw_num = min(num1, num2)
+        answer_list.append(self.evaluate(up_num, dw_num, self.sign_str))
 
         strr = f"   {up_num}\n{self.sign_str} {dw_num}"
         question_list.append(strr)
 
-
-        return question_list
+        return {"question_list": question_list, "answer_list": answer_list}
     
 
 
@@ -68,18 +71,37 @@ class Number_generator():
         """
 
         question_list = []
-
+        answer_list = []
         # Two digits
         for i in range(0,9):
             num1 = random.randint(2, 11)
             num2 = random.randint(4, 999)
             up_num = max(num1, num2)
             dw_num = min(num1, num2)
+            answer_list.append(self.evaluate(up_num, dw_num, self.sign_str))
 
             strr = f"   {up_num}\n{self.sign_str}   {dw_num}"
             question_list.append(strr)
 
-        return question_list
+        return {"question_list": question_list, "answer_list": answer_list}
+    
+
+    def evaluate(self, num1: int, num2: int, sign: str):
+        
+        if sign == "+":
+            ans = num1 + num2
+
+        elif sign == "-":
+            ans = num1 - num2
+
+        elif sign == "x":
+            ans = num1 * num2
+
+        elif sign == "÷":
+            ans = num1//num2
+
+
+        return ans
 
         
 
