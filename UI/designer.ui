@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1437</width>
+    <height>825</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>30</y>
+        <width>601</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+	
+	background-color: rgb(209, 209, 209);
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="welcome_label">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>661</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>36</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Welcome Chinu Bisht</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>220</y>
+        <width>661</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+	
+	background-color: rgb(209, 209, 209);
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="welcome_label_2">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>20</y>
+         <width>331</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>36</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Start Test</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pg1_addition_btn">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>130</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+	background-color: rgb(12, 44, 255);
+	border: 2px solid black;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+ 	 
+	background-color: rgb(0, 2, 147);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(75, 192, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Addition</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pg1_subtraction_btn">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>220</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+	background-color: rgb(12, 44, 255);
+	border: 2px solid black;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+ 	 
+	background-color: rgb(0, 2, 147);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(75, 192, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Subtraction</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pg1_multi_btn">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>310</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+	background-color: rgb(12, 44, 255);
+	border: 2px solid black;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+ 	 
+	background-color: rgb(0, 2, 147);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(75, 192, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Multiplication</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pg1_division_btn">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>400</y>
+         <width>241</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"> QPushButton {
+	background-color: rgb(12, 44, 255);
+	border: 2px solid black;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+ 	 
+	background-color: rgb(0, 2, 147);
+}
+
+QPushButton:pressed{
+	
+	background-color: rgb(75, 192, 255);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Division</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>220</y>
+        <width>661</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame{
+	
+	background-color: rgb(209, 209, 209);
+	border-radius: 10px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2"/>
+    <widget class="QWidget" name="page_3"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1437</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
